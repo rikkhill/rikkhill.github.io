@@ -1,55 +1,104 @@
-title: Résumé
-name: YOUR NAME
-jobtitle: Your Job Title
+title: Unabridged CV
+name: Rikk Hill
+jobtitle: Machine Learning Specialist
+profile: With sixteen years of commercial experience, I am a senior-level software developer with specialisations in Machine Learning and statistics, as well as a strong background in technical infrastructure. I have architectural and tech-lead experience, and have solved all manner of problems in a variety of different tech domains. I am SC-cleared and have ONS Approved Researcher status.<br/><br/> This is the unabridged version of my CV, which has inevitably grown beyond the acceptable standard of two sides of A4. You may search this page at your leisure.
 contact:
   - icon: fa-envelope
-    text: youremail@example.com
-  - icon: fa-phone-square
-    text: your-phone-num
-  - icon: fa-globe
-    text: your-website.com
-    link: https://crispgm.github.io/resume/resume.html
+    #text: me@rikkhill.com
+    link: mailto:me@rikkhill.com
   - icon: fa-github
-    text: your-github
-    link: https://github.com/crispgm/resume
+    #text: github
+    link: https://github.com/rikkhill
+  - icon: fa-linkedin
+    #text: LinkedIn
+    link: https://linkedin.com/in/rikkhill
+
 education:
-  - university: Your First University
-    duration: Jul 2011 - Dec 2012
-    location: Consectetur adipiscing elit
-    major: Lorem ipsum dolor sit amet
-  - university: Your Second University
-    duration: Aug 2007 - Jun 2011
-    location: Ut enim ad minim veniam
-    major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+  - university: The Open University
+    duration: 2009 - 2015
+    grade: First Class Honours
+    major: BSc. Economics & Mathematical Sciences
+  - university: University College London
+    duration: 2015 - 2016
+    grade: Distinction
+    major: MSc. Computational Statistics and Machine Learning
+    comments: The subject of my Masters dissertation was the use of side-information in collaborative filtering for recommender systems.
+
 skills:
-  - title: Skill Group 1
-    items: Lorem, Ipsum, Dolor, Sit, Amet
-  - title: Skill Group 2
-    items: Consectetur, Adipiscing, Elit
-  - title: Skill Group 3
-    items: Sed do, Eiusmod, Tempor, Incididunt
+  - title: Software Development
+    items:
+      - subtitle: Python
+        body: "My strongest language is Python, where my experience breaks down into three rough areas of use:
+        <ul>
+        <li>Machine Learning, comprising the scientific Python stack and numerous specific ML libraries. For more details, see the <i>specific technologies</i> subsection under Machine Learning</li>
+        <li>web development frameworks including Django and Flask</li>
+        <li>CLI, ops, ETL and pipelining libraries such as Click and Luigi</li>
+        </ul>
+        I am conversant with multiple environment management, packaging tools and testing frameworks for Python."
+
+      - subtitle: JavaScript and Web
+        body: "I have considerable experience with JavaScript, mostly around front-end web development, including React, D3, jQuery, UI and test frameworks. I also have considerable experience in HTML, CSS, modern web development standards, libraries and tooling. I also have some experience with server-side Node. I have a good understanding of principles of visual design, though my strongest design skill is knowing when the problem needs to be handed to a design specialist."
+      - subtitle: Other Languages
+        body: I am also commercially proficient in Scala (mostly for ML projects), Ruby (mostly for test suites and dev tool configuration, but with some Rails experience), Perl (mostly around the Catalyst MVC framework) and Java (miscellaneous projects, but mostly around ML libraries). I also have a good working knowledge of R, Matlab, C#, C and PHP. I have a <em>bad</em> working knowledge of maybe half a dozen other languages.
+      - subtitle: Database Technologies
+        body: I have extensive experience of database technologies, both from a development and operations perspective. My SQL relational database experience includes MySQL, PostgreSQL and SQL Server, and several other more esoteric platforms. My NoSQL/document store experience includes MongoDB, AWS DynamoDB, CouchBase and Apache Lucene/Solr.
+      - subtitle: Tooling
+        body: I have strong skills in development tooling and methodologies, source control (git), CI/CD, various environment management tools, and many build and testing toolchains; considerable experience in *nix/Linux environments and tools; architectural and tech-lead experience; understanding of what makes dev teams succeed or fail; solid track record of mentorship and training delivery.
+  - title: Machine Learning and Statistics
+    items:
+      - subtitle: Machine Learning
+        body: I have commercial experience with a wide variety of machine learning techniques, including Hidden Markov Models, matrix factorisation, Gaussian Processes, kernel methods, and neural network architectures (particularly multilayer perceptron, LSTMs and autoencoders). I have also produced multiple commercial Natural Language Processing projects using statistical, linguistic, and information retrieval methods.
+      - subtitle: Statistics
+        body: I am experienced in a variety of regression techniques, from both a classical/frequentist and Bayesian perspective, including the GLM and hierarchical models. I also have commercial experience of factor analysis, a variety of time-series models, and use of GIS and spatial statistics, particularly around political geographies and census data.
+      - subtitle: Specific Technologies
+        body: "I am greatly experienced in using the Python scientific stack for common statistical and Machine Learning methods, including numpy, pandas, scipy and statsmodels. In the course of my work I've gained fluency with numerous specific Machine Learning libraries, including spaCy, nltk and gensim for Natural Language processing, nimfa and pymf for matrix factorisation, OpenCV for computer vision tasks, PyMC for Bayesian modelling, and both TensorFlow and PyTorch for neural networks and other autodifferentiation techniques. I also have experience with Hadoop and Spark (both Scala and Python bindings) for distributed computing."
+      - subtitle: Ancillary Skills
+        body: "I have strong statistical and technical communication skills, and am able to express complex material for a wide range of audiences. I have strong data visualisation skills, and am adept at producing both written and presented reports. I have worked in-depth on projects that revolved around privacy preservation and data governance. I also have a good understanding of experimental design, ranging from A/B testing to randomised controlled trials."
+  - title: Infrastructure
+    items:
+      - subtitle: Cloud Services
+        body: I have hands-on experience with cloud service providers, chiefly AWS, (in particular EC2, S3, Lambda, DynamoDB, Redis, Cognito, EMR and API Gateway), but also with Google Cloud Services.
+      - subtitle: Virtualisation, Containerisation and Provisioning
+        body: I have considerable experience with large-scale virtualisation solutions such as VMWare ESX and vSphere, Xen and Citrix. I am also at home with smaller-scale demos and prototypes provisioned in Vagrant. I have experience building environments with docker and kubernetes. I also know my way around provisioning tools, including Puppet, Chef and Terraform.
+      - subtitle: Operations and Administration
+        body: I have extensive experience with Linux and other *nix-based operating systems, though particularly around Debian and RHEL-CenOS architecture. I also have Wintel enterprise stack experience, mostly around web and database servers. I'm very comfortable with network architecture and most common networking protocols. I'm happy with hardware and know my way around a datacentre.
+
 experience:
-  - title: Job Title 1
-    duration: Apr 2016 - Now
-    company: Your 1st, Inc.
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  - title: Job Title 2
-    duration: Apr 2013 - Mar 2016
-    company: Your 2nd, Inc.
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  - title: Job Title 3
-    duration: Dec 2011 - Mar 2012
-    company: Your 3rd Co, Ltd.
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-projects:
-  - name: Project Name 1
-    description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Contributor.
-  - name: Project Name 2
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    contribution: Creator and maintainer.
-languages:
-  - name: English
-    proficiency: Work proficiency
-  - name: Mandarin Chinese
-    proficiency: Native
+  - title: Contract Data Scientist
+    duration: November 2018 - June 2019
+    company: The Department for International Trade
+    description: Part of the internal Data Science Labs team, building utilities to promote British trade interests and improve internal analytical capacity, including statistical modelling, classifiers, matching algorithms and NLP tools.
+  - title: Senior Data Scientist
+    duration: September 2016 - November 2018
+    company: Social Finance Digital Labs
+    description: Tech-lead and architect on projects building data products to provide visibility on administrative and operational data in public sector social care. Applying methods from statistical, Machine Learning and social science research to address operational questions faced by government decision-makers. Extensive use of the Python Machine Learning and statistics ecosystem. Architecture of a complex, secure AWS real-estate using Terraform.
+    achievements:
+    - In my first month, optimised the team's flagship reporting product, resulting in 400x real-time speed-up
+    - Concieved and implemented a cutting-edge privacy-preserving algorithm for reporting on sensitive data
+    - Implemented a suite of forecasting models for predicting the load on public care services
+    - Ran a training scheme to upskill quantitative non-tech staff in the Python data stack
+  - title: Software Developer
+    duration: December 2013 - September 2015
+    company: The NET-A-PORTER Group
+    description: Part of the Warehouse Management team, developing warehouse, shipping and logistics functionality, mostly in Perl and JavaScript, but also working in Scala, Ruby and Python.
+    achievements:
+      - Use of discrete optimisation algorithms to efficiently solve problems in scheduling and logistics
+  - title: Application Support Developer
+    duration: October 2011 - December 2013
+    company: The NET-A-PORTER Group
+    description: Part of the Application Support team, working on critical/quick turnaround issues, data and bug fixes, bespoke application functionality, managing technical debt, and building support tools in Python, Perl and JavaScript.
+    achievements:
+      - Produced a variety of time-saving tools and browser plugins to speedup operational workflow
+      - Diagnosed a recurring storage infrastructure problem based on high-level software behaviour
+  - title: Senior Technical Analyst
+    duration: July 2008 - October 2011
+    company: UKMail Group PLC
+    description: Part of the core Technical Operations team, doing what these days would be called DevOps, maintaining a large physical and virtual estate of Wintel and Linux servers, administering database platforms and providing high availability customer-facing web services. Development of bespoke monitoring tools and business continuity failover automation using Python and Perl. The role also involved provisioning and supporting services for in-house development teams.
+    achievements:
+      - Achieved near-full automation of dual-site disaster recovery failover procedures
+      - Strategised and implemented virtualisation of 100+ physical server estate to a VMWare environment
+      - Built bespoke monitoring and reporting tools for selfsame server farm
+      - Implemented multi-tier Business Intelligence reporting and analysis platform
+  - description: "Prior to 2008 I held multiple junior and mid-level roles revolving around software support, system administration, web development and database administration. A full list, going back to 2003, is available on request."
+    duration: "2003 - 2008"
+    company: "Various"

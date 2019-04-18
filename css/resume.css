@@ -26,6 +26,16 @@ a:hover {
   text-align: left;
   margin-bottom: 1rem;
 }
+
+.title-item {
+  font-family: "Noto Serif", "Segoe Serif", serif;
+}
+
+.section-subheader {
+  font-weight: bold;
+  padding-bottom: 0.2rem;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -38,11 +48,15 @@ header {
   padding-bottom: 1rem;
 }
 #fullname {
-  font-size: 2.2rem;
+  font-size: 3.2rem;
 }
 #jobtitle {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-top: .8rem;
+}
+#profile {
+  font-size: 1rem;
+  margin-top: 1rem;
 }
 #contact {
   font-size: 1rem;
@@ -53,10 +67,15 @@ header {
 }
 .contact-item {
   margin-top: .4rem;
+  padding-left: 6rem;
 }
 .contact-item a {
   color: inherit;
   text-decoration: none;
+}
+
+.fa {
+  font-size: 2rem;
 }
 section {
   display: flex;
