@@ -47,7 +47,7 @@ skills:
   - title: Machine Learning and Statistics
     items:
       - subtitle: Machine Learning
-        body: I have commercial experience with a wide range of machine learning techniques, including: Hidden Markov Models, matrix factorisation, Gaussian Processes, kernel methods, and neural network architectures (particularly multilayer perceptron, LSTMs and autoencoders). I have also produced multiple commercial Natural Language Processing projects using statistical, linguistic, and information retrieval methods.
+        body: "I have commercial experience with a wide range of machine learning techniques, including: Hidden Markov Models, matrix factorisation, Gaussian Processes, kernel methods, and neural network architectures (particularly multilayer perceptron, LSTMs and autoencoders). I have also produced multiple commercial Natural Language Processing projects using statistical, linguistic, and information retrieval methods."
       - subtitle: Statistics
         body: I am experienced in a variety of regression techniques, from both a classical/frequentist and Bayesian perspective, including the GLM and hierarchical models. I also have commercial experience of factor analysis, a variety of time-series models, and use of GIS and spatial statistics, particularly around political geographies and census data.
       - subtitle: Specific Technologies
