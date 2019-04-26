@@ -28,18 +28,18 @@ skills:
   - title: Software Development
     items:
       - subtitle: Python
-        body: "My strongest language is Python, where my experience breaks down into three rough areas of use:
+        body: "My strongest language is Python, where my experience breaks down into three main areas of use:
         <ul>
         <li>Machine Learning, comprising the scientific Python stack and numerous specific ML libraries. For more details, see the <i>specific technologies</i> subsection under Machine Learning</li>
-        <li>web development frameworks including Django and Flask</li>
-        <li>CLI, ops, ETL and pipelining libraries such as Click and Luigi</li>
+        <li>Web development frameworks including Django and Flask</li>
+        <li>CLI, ops, ETL and pipelining libraries such as Click and Luigi.</li>
         </ul>
         I am conversant with multiple environment management, packaging tools and testing frameworks for Python."
 
       - subtitle: JavaScript and Web
-        body: "I have considerable experience with JavaScript, mostly around front-end web development, including React, D3, jQuery, UI and test frameworks. I also have considerable experience in HTML, CSS, modern web development standards, libraries and tooling. I also have some experience with server-side Node. I have a good understanding of principles of visual design, though my strongest design skill is knowing when the problem needs to be handed to a design specialist."
+        body: "I have been developing in JavaScript almost continuously since 2002, mostly in the area of web development. I keep myself up-to-date with modern JavaScript, including React, D3, and various UI, test and build frameworks. I also have considerable experience in HTML, CSS, modern web development standards, libraries and tooling. I also have some experience with server-side Node. I have a good understanding of principles of visual design, however my strongest design skill is knowing when the problem needs to be handed to a design specialist."
       - subtitle: Other Languages
-        body: I am also commercially proficient in Scala (mostly for ML projects), Ruby (mostly for test suites and dev tool configuration, but with some Rails experience), Perl (mostly around the Catalyst MVC framework) and Java (miscellaneous projects, but mostly around ML libraries). I also have a good working knowledge of R, Matlab, C#, C and PHP. I have a <em>bad</em> working knowledge of maybe half a dozen other languages.
+        body: "I am also commercially proficient in Scala (mostly for ML projects), Ruby (mostly for test suites and dev tool configuration, but with some Rails experience), Perl (mostly around the Catalyst MVC framework) and Java (miscellaneous projects, but mostly around ML libraries). I also have a good working knowledge of R, Matlab, C#, C and PHP."
       - subtitle: Database Technologies
         body: I have extensive experience of database technologies, both from a development and operations perspective. My SQL relational database experience includes MySQL, PostgreSQL and SQL Server, and several other more esoteric platforms. My NoSQL/document store experience includes MongoDB, AWS DynamoDB, CouchBase and Apache Lucene/Solr.
       - subtitle: Tooling
@@ -47,11 +47,11 @@ skills:
   - title: Machine Learning and Statistics
     items:
       - subtitle: Machine Learning
-        body: I have commercial experience with a wide variety of machine learning techniques, including Hidden Markov Models, matrix factorisation, Gaussian Processes, kernel methods, and neural network architectures (particularly multilayer perceptron, LSTMs and autoencoders). I have also produced multiple commercial Natural Language Processing projects using statistical, linguistic, and information retrieval methods.
+        body: I have commercial experience with a wide range of machine learning techniques, including: Hidden Markov Models, matrix factorisation, Gaussian Processes, kernel methods, and neural network architectures (particularly multilayer perceptron, LSTMs and autoencoders). I have also produced multiple commercial Natural Language Processing projects using statistical, linguistic, and information retrieval methods.
       - subtitle: Statistics
         body: I am experienced in a variety of regression techniques, from both a classical/frequentist and Bayesian perspective, including the GLM and hierarchical models. I also have commercial experience of factor analysis, a variety of time-series models, and use of GIS and spatial statistics, particularly around political geographies and census data.
       - subtitle: Specific Technologies
-        body: "I am greatly experienced in using the Python scientific stack for common statistical and Machine Learning methods, including numpy, pandas, scipy and statsmodels. In the course of my work I've gained fluency with numerous specific Machine Learning libraries, including spaCy, nltk and gensim for Natural Language processing, nimfa and pymf for matrix factorisation, OpenCV for computer vision tasks, PyMC for Bayesian modelling, and both TensorFlow and PyTorch for neural networks and other autodifferentiation techniques. I also have experience with Hadoop and Spark (both Scala and Python bindings) for distributed computing."
+        body: "I have strong commercial experience using the Python scientific stack for common statistical and Machine Learning methods, including numpy, pandas, scipy and statsmodels. In the course of my work I've gained fluency with numerous Machine Learning libraries, including: spaCy, nltk and gensim for Natural Language processing, nimfa and pymf for matrix factorisation, OpenCV for computer vision tasks, PyMC for Bayesian modelling, and both TensorFlow and PyTorch for neural networks and other autodifferentiation techniques. I also have experience with Hadoop and Spark (both Scala and Python bindings) for distributed computing."
       - subtitle: Ancillary Skills
         body: "I have strong statistical and technical communication skills, and am able to express complex material for a wide range of audiences. I have strong data visualisation skills, and am adept at producing both written and presented reports. I have worked in-depth on projects that revolved around privacy preservation and data governance. I also have a good understanding of experimental design, ranging from A/B testing to randomised controlled trials."
   - title: Infrastructure
@@ -61,7 +61,7 @@ skills:
       - subtitle: Virtualisation, Containerisation and Provisioning
         body: I have considerable experience with large-scale virtualisation solutions such as VMWare ESX and vSphere, Xen and Citrix. I am also at home with smaller-scale demos and prototypes provisioned in Vagrant. I have experience building environments with docker and kubernetes. I also know my way around provisioning tools, including Puppet, Chef and Terraform.
       - subtitle: Operations and Administration
-        body: I have extensive experience with Linux and other *nix-based operating systems, though particularly around Debian and RHEL-CenOS architecture. I also have Wintel enterprise stack experience, mostly around web and database servers. I'm very comfortable with network architecture and most common networking protocols. I'm happy with hardware and know my way around a datacentre.
+        body: I have extensive experience with Linux and other *nix-based operating systems, particularly around Debian and RHEL-CenOS architecture. I also have Wintel enterprise stack experience, mostly around web and database servers. I'm very comfortable with network architecture and most common networking protocols. I'm comfortable working with hardware and know my way around a datacentre.
 
 experience:
   - title: Contract Data Scientist
@@ -70,35 +70,35 @@ experience:
     description: Part of the internal Data Science Labs team, building utilities to promote British trade interests and improve internal analytical capacity, including statistical modelling, classifiers, matching algorithms and NLP tools.
   - title: Senior Data Scientist
     duration: September 2016 - November 2018
-    company: Social Finance Digital Labs
-    description: Tech-lead and architect on projects building data products to provide visibility on administrative and operational data in public sector social care. Applying methods from statistical, Machine Learning and social science research to address operational questions faced by government decision-makers. Extensive use of the Python Machine Learning and statistics ecosystem. Architecture of a complex, secure AWS real-estate using Terraform.
+    company: Social Finance
+    description: Tech-lead and architect building data products to provide visibility on administrative and operational data in public sector social care. Applying methods from statistical, Machine Learning and social science research to address operational questions faced by government decision-makers. Extensive use of the Python Machine Learning and statistics ecosystem. Architecture of a complex, secure AWS real-estate using Terraform.
     achievements:
     - In my first month, optimised the team's flagship reporting product, resulting in 400x real-time speed-up
     - Concieved and implemented a cutting-edge privacy-preserving algorithm for reporting on sensitive data
     - Implemented a suite of forecasting models for predicting the load on public care services
-    - Ran a training scheme to upskill quantitative non-tech staff in the Python data stack
+    - Ran a training scheme to upskill quantitative non-tech staff in the Python data stack.
   - title: Software Developer
     duration: December 2013 - September 2015
     company: The NET-A-PORTER Group
     description: Part of the Warehouse Management team, developing warehouse, shipping and logistics functionality, mostly in Perl and JavaScript, but also working in Scala, Ruby and Python.
     achievements:
-      - Use of discrete optimisation algorithms to efficiently solve problems in scheduling and logistics
+      - Use of discrete optimisation algorithms to efficiently solve problems in scheduling and logistics.
   - title: Application Support Developer
     duration: October 2011 - December 2013
     company: The NET-A-PORTER Group
     description: Part of the Application Support team, working on critical/quick turnaround issues, data and bug fixes, bespoke application functionality, managing technical debt, and building support tools in Python, Perl and JavaScript.
     achievements:
       - Produced a variety of time-saving tools and browser plugins to speedup operational workflow
-      - Diagnosed a recurring storage infrastructure problem based on high-level software behaviour
+      - Diagnosed a recurring storage infrastructure problem based on high-level software behaviour.
   - title: Senior Technical Analyst
     duration: July 2008 - October 2011
     company: UKMail Group PLC
-    description: Part of the core Technical Operations team, doing what these days would be called DevOps, maintaining a large physical and virtual estate of Wintel and Linux servers, administering database platforms and providing high availability customer-facing web services. Development of bespoke monitoring tools and business continuity failover automation using Python and Perl. The role also involved provisioning and supporting services for in-house development teams.
+    description: Part of the core Technical Operations team, doing what these days would be called DevOps, maintaining a large physical and virtual estate of Wintel and Linux servers, administering database platforms and providing high availability customer-facing web services. Development of bespoke monitoring tools and business continuity failover automation using Python and Perl. I was also responsible for provisioning and supporting services for in-house development teams.
     achievements:
       - Achieved near-full automation of dual-site disaster recovery failover procedures
       - Strategised and implemented virtualisation of 100+ physical server estate to a VMWare environment
       - Built bespoke monitoring and reporting tools for selfsame server farm
-      - Implemented multi-tier Business Intelligence reporting and analysis platform
+      - Implemented multi-tier Business Intelligence reporting and analysis platform.
   - description: "Prior to 2008 I held multiple junior and mid-level roles revolving around software support, system administration, web development and database administration. A full list, going back to 2003, is available on request."
     duration: "2003 - 2008"
     company: "Various"
