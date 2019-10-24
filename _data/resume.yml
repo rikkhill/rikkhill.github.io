@@ -1,7 +1,7 @@
-title: Unabridged CV
+title: Rikk Hill - Curriculum Vitae
 name: Rikk Hill
 jobtitle: Machine Learning Specialist
-profile: With sixteen years of commercial experience, I am a senior-level software developer with specialisations in Machine Learning and statistics, as well as a strong background in technical infrastructure. I have architectural and tech-lead experience, and have solved all manner of problems in a variety of different tech domains. I am SC-cleared and have ONS Approved Researcher status.<br/><br/> This is the unabridged version of my CV, which has inevitably grown beyond the acceptable standard of two sides of A4. You may search this page at your leisure.
+profile: With seventeen years of commercial experience, I am a senior-level software developer with specialisations in Machine Learning and statistics, as well as a strong background in technical infrastructure. I have architectural and tech-lead experience, and have solved all manner of problems in a variety of different tech domains. I am SC-cleared and have ONS Approved Researcher status.<br/><br/> This is the unabridged version of my CV, which has inevitably grown beyond the acceptable standard of two sides of A4. You may search this page at your leisure.
 contact:
   - icon: fa-envelope
     #text: me@rikkhill.com
@@ -32,14 +32,14 @@ skills:
         <ul>
         <li>Machine Learning, comprising the scientific Python stack and numerous specific ML libraries. For more details, see the <i>specific technologies</i> subsection under Machine Learning</li>
         <li>Web development frameworks including Django and Flask</li>
-        <li>CLI, ops, ETL and pipelining libraries such as Click and Luigi.</li>
+        <li>CLI, ops, ETL and pipelining libraries.</li>
         </ul>
         I am conversant with multiple environment management, packaging tools and testing frameworks for Python."
 
       - subtitle: JavaScript and Web
         body: "I have been developing in JavaScript almost continuously since 2002, mostly in the area of web development. I keep myself up-to-date with modern JavaScript, including React, D3, and various UI, test and build frameworks. I also have considerable experience in HTML, CSS, modern web development standards, libraries and tooling. I also have some experience with server-side Node. I have a good understanding of principles of visual design, however my strongest design skill is knowing when the problem needs to be handed to a design specialist."
       - subtitle: Other Languages
-        body: "I am also commercially proficient in Scala (mostly for ML projects), Ruby (mostly for test suites and dev tool configuration, but with some Rails experience), Perl (mostly around the Catalyst MVC framework) and Java (miscellaneous projects, but mostly around ML libraries). I also have a good working knowledge of R, Matlab, C#, C and PHP."
+        body: "I am also commercially proficient in Scala (mostly for ML projects), Ruby (mostly for test suites and dev tool configuration, but with some Rails experience), Perl (mostly around the Catalyst MVC framework) and Java (miscellaneous projects, but mostly around ML libraries). I also have a good working knowledge of R, Matlab, C, C#, C++ and PHP."
       - subtitle: Database Technologies
         body: I have extensive experience of database technologies, both from a development and operations perspective. My SQL relational database experience includes MySQL, PostgreSQL and SQL Server, and several other more esoteric platforms. My NoSQL/document store experience includes MongoDB, AWS DynamoDB, CouchBase and Apache Lucene/Solr.
       - subtitle: Tooling
@@ -57,13 +57,17 @@ skills:
   - title: Infrastructure
     items:
       - subtitle: Cloud Services
-        body: I have hands-on experience with cloud service providers, chiefly AWS, (in particular EC2, S3, Lambda, DynamoDB, Redis, Cognito, EMR and API Gateway), but also with Google Cloud Services.
+        body: I have hands-on experience with cloud service providers, including both AWS and Google Cloud Platform. I have helped architect authenticated serverless data-driven web applications in a security-conscious context, as well as employing serverless architectures for Machine Learning projects.
       - subtitle: Virtualisation, Containerisation and Provisioning
-        body: I have considerable experience with large-scale virtualisation solutions such as VMWare ESX and vSphere, Xen and Citrix. I am also at home with smaller-scale demos and prototypes provisioned in Vagrant. I have experience building environments with docker and kubernetes. I also know my way around provisioning tools, including Puppet, Chef and Terraform.
+        body: I have considerable experience with large-scale virtualisation solutions such as VMWare ESX and vSphere, Xen and Citrix. I am also at home with smaller-scale demos and prototypes provisioned in Vagrant. I have experience building environments with docker and kubernetes. I also know my way around provisioning tools, including Puppet and Chef.
       - subtitle: Operations and Administration
         body: I have extensive experience with Linux and other *nix-based operating systems, particularly around Debian and RHEL-CenOS architecture. I also have Wintel enterprise stack experience, mostly around web and database servers. I'm very comfortable with network architecture and most common networking protocols. I'm comfortable working with hardware and know my way around a datacentre.
 
 experience:
+  - title: Contract Senior Python Software Engineer (Machine Learning)
+    duration: August 2019 - November 2019
+    company: GfK
+    description: A short-lived contract, upskilling a team of non-Python developers to work to Python best-practises, building an algorithm runtime environment for online and asynchronous execution of machine learning algorithms, implementing high-performance real-time machine learning algorithms to feed into the company's flagship data product.
   - title: Contract Data Scientist
     duration: November 2018 - June 2019
     company: The Department for International Trade
