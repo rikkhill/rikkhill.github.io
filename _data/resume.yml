@@ -34,12 +34,12 @@ skills:
         <li>Web development frameworks including Django and Flask</li>
         <li>CLI, ops, ETL and pipelining libraries.</li>
         </ul>
-        I am conversant with multiple environment management, packaging tools and testing frameworks for Python."
+        I am conversant with multiple environment management, packaging tools and testing frameworks for Python, and have provided training on best practices in developing and maintaining Python projects."
 
       - subtitle: JavaScript and Web
         body: "I have been developing in JavaScript almost continuously since 2002, mostly in the area of web development. I keep myself up-to-date with modern JavaScript, including React, D3, and various UI, test and build frameworks. I also have considerable experience in HTML, CSS, modern web development standards, libraries and tooling. I also have some experience with server-side Node. I have a good understanding of principles of visual design, however my strongest design skill is knowing when the problem needs to be handed to a design specialist."
       - subtitle: Other Languages
-        body: "I am also commercially proficient in Scala (mostly for ML projects), Ruby (mostly for test suites and dev tool configuration, but with some Rails experience), Perl (mostly around the Catalyst MVC framework) and Java (miscellaneous projects, but mostly around ML libraries). I also have a good working knowledge of R, Matlab, C, C#, C++ and PHP."
+        body: "I am also commercially proficient in Scala (mostly for ML projects), Ruby (mostly for test suites and dev tool configuration, but with some Rails experience), Perl (mostly around the Catalyst MVC framework) and Java (miscellaneous projects, but mostly around ML libraries). From smaller pieces of work and personal projects, I also have a good working knowledge of R, Matlab, C, C#, C++ and PHP."
       - subtitle: Database Technologies
         body: I have extensive experience of database technologies, both from a development and operations perspective. My SQL relational database experience includes MySQL, PostgreSQL and SQL Server, and several other more esoteric platforms. My NoSQL/document store experience includes MongoDB, AWS DynamoDB, CouchBase and Apache Lucene/Solr.
       - subtitle: Tooling
