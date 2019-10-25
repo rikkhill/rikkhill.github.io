@@ -1,5 +1,6 @@
 title: Résumé
 baseurl: ""
+color: blue
 exclude:
   - README.md
   - LICENSE
